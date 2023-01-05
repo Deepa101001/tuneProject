@@ -19,7 +19,7 @@ public class HomePage {
 	@FindBy(xpath ="img[class=\"header-logo\"]")
 	@CacheLookup
 	WebElement logo;
-	AA
+	
 	@FindBy(xpath="//a[text()=\"Home\"]")
 	@CacheLookup
 	WebElement homeLink; 
